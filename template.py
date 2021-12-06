@@ -2,12 +2,7 @@ import math
 import copy
 from functools import reduce
 
-with open("input2.txt", "r") as file:
+with open("input2.txt", "r") as f:
   # iterate over every line in a file
-  for line in file.read().strip().split("\n"):
-    print(line)
-
-def solve():
-  pass
-
-solve()
+  for l in f.read().split("\n"):
+    print(l)
